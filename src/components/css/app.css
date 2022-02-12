@@ -1,0 +1,56 @@
+/* estilos base */
+
+body {
+  background: #fbfdfe;
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+/* Otros estilos */
+.nav-styles {
+  color: black;
+  border-bottom: 1.5px solid silver;
+}
+.logo {
+  background: #f9a826;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  border-radius: 7px;
+}
+.userName {
+  background: #f9a826;
+  border-radius: 7px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.shadow {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.buttonScreen {
+  background: #f9a826;
+  color: white;
+  border: none;
+}
+.moreInfoButton {
+  background: #f9a826;
+  border-radius: 7px;
+  color: black;
+  border: none;
+  text-decoration: none;
+}
+.btnLogin {
+  background: #f9a826;
+  border: none;
+  margin-right: 20px;
+}

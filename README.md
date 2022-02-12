@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Información General
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hola buenas esta es mi solución para la prueba del Lector Rss!
 
-## Available Scripts
+## Scripts
 
-In the project directory, you can run:
+Estos son los scripts disponibles:
 
-### `npm start`
+### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Corre la aplicación en el puerto 3000.\
+Abré [http://localhost:3000](http://localhost:3000).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `yarn test`
 
-### `npm test`
+Ejecuta las pruebas del codigo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `yarn build`
 
-### `npm run build`
+Lanzá la app para produccion `build` .\
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `firebase deploy`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Hace deploy a firebase
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Tecnologias
 
-### `npm run eject`
+**Lista de tecnologías**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React 17
+- Bootstrap // Estilos de la App
+- Animate // Animaciones de la App
+- React Hooks
+- react-router-dom // Enrutamiento
+- Jest // Testing de la App
+- query-string // Para llevar un uso mas secillo de los query Params
+- Enzyme // Testing
+- Enzyme-to-json // Testing
+- Firebase // Para el deploy de la App
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tecnologias pendientes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- TypeScript
+- Redux
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Nota
 
-## Learn More
+Hola buenas comento que he utilizado esta api porque estuve probando estas 2 api y no me cuadraron mucho:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- https://newsapi.org/v2/everything?q=tesla&from=2022-01-12&sortBy=publishedAt&apiKey=ada892adb70240c3b2c03c6c41fccb6d
+- https://api.nomics.com/v1/currencies/ticker?key=your-key-here&ids=BTC,ETH,XRP&interval=1d,30d&convert=EUR&platform-currency=ETH&per-page=100&page=1
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Se pueden revisar más profundamente he implementarlas, la segunda no la aplique por que no es una api de Noticias
 
-### Code Splitting
+-TO DO
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Se podría llamar a otra Api (Como las mencionadas anteriormente)
+- Filtrar el llamado a la Api por menos resultados ya que tarda un poquito
+- Utilizar JWT Para un login con token
+- Terminar diseño responsive
+- Uso de TypeScript
+- Integracion con gitHub actions para el deploy (No lo pude implementar por un problema con git)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Eso es todo espero que les guste y un saludo si tienen alguna duda no duden en comentarmela un saludo!
